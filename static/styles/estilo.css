@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+:root{
+    --fonte-: 'Fredoka', sans-serif;
+    --cor-: blue;
+    --cor-2: black;
+}
+
+body{
+    background-color: var(--cor-2);
+    width: 1500px;
+    height: 600px;
+}
+ 
+/* titulo */
+h1{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-);
+}
+
+/* formulário */
+.lario{
+    background-color: rgb(47, 53, 79);
+    width: 300px;
+    height: 280px;
+    display: flexbox;
+    margin-top: 60px;
+    margin-left: 570px;
+    padding: 20px 40px;
+    
+
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-);
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/*itens*/
+
+
+.peso{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.altura{
+    margin-top: 60px;
+}
+
+.botao{
+    background-color: rgba(95, 158, 160, 0.81);
+    color: white;
+    font-family: var(--fonte-);
+    margin-left: 45px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.resultado{
+    margin-top: 40px;
+    padding: 10px 20px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="/static/styles/estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidor de IMC</title>
+</head>
+<body>
+    <h1>Calcule o seu IMC</h1>
+
+    <form class="lario" action="/" method="post">
+        <label class="pesoo" for="peso">Digite seu peso</label>
+        <input class="peso" name="peso" value="{{ peso }}" id="peso" type="text">
+
+        <label for="altura">Digite sua altura</label>
+        <input class="altura" name="altura" value="{{ altura }}" id="altura" type="text">
+
+        <button class="botao" type="submit">Verificar</button><br>
+
+        <label for="resultado">Seu IMC é:</label>
+        <input class="resultado" type="text" name="imc" id="resultado" value="{{ imc }}">
+    </form>
+
+</body>
+</html>
